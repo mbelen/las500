@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de aplicacion</title>
+        <link href="registro.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body>
+        <main><b>
+            <p><b>Formulario de Aplicacion.</b></p>
+        
+        <form>
+        <div class="order" id="first">
+        <label>NOMBRE Y APELLIDO</label>
+        <div class="ancho"><input type="text" name="nombre"></div>
+        
+        <label>EMAIL</label>
+        <div class="ancho"><input type="email" name="email"></div>
+        
+        <label>PAIS</label><br>
+        <select name="select">
+        <option value="opcion0">-- Selecionar pais --</option>
+        <option value="opcion1">Argentina</option>
+        <option value="opcion2">Chile</option>
+        <option value="opcion3">Bolivia</option>
+        <option value="opcion4">Peru</option>
+        <option value="opcion5">Paraguay</option>
+        <option value="opcion6">Uruguay</option>
+        <option value="opcion7">Brazil</option>
+        </select><br><br>
+        
+        <label>BIOGRAFIA</label>
+        <div class="ancho"><textarea name="Ingrese su parrafo"></textarea></div>
+        </div>
+        
+        <div class="order" id="second">
+        <label>TELEFONO</label>
+        <div class="ancho"><input type="text" name="numero"></div>
+        
+        <label>CELULAR</label>
+        <div class="ancho"><input type="text" name="numero"></div>
+        
+        <label>OCUPACION</label><br>
+        <select name="select" class="ancho">
+        <option value="opcion0">-- Selecione ocupacion --</option>
+        <option value="opcion1">Ama de casa</option>
+        <option value="opcion2">Estudiante</option>
+        <option value="opcion3">Doctor</option>
+        <option value="opcion4">Ingeniero</option>
+        <option value="opcion5">Tecnico</option>
+        <option value="opcion6">Abogado</option>
+        </select><br>
+        
+        <label>NOMBRE DE PERRO<span class="caso"><i>(en caso de tenerlo)</i></span></label>
+        <div class="ancho"><input type="text" name="perro"></div>
+        
+        <label>NOMBRE DE GATO<span class="caso"><i>(en caso de tenerlo)</i></span></label>
+        <div class="ancho"><input type="text" name="gato"></div>
+        </div> 
+        
+        <div class="order" id="third">
+        <label>TALENTO</label><br>
+        <select name="select" class="ancho">
+        <option value="opcion0">-- Selecione un talento --</option>
+        </select><br>
+        
+        <label>TRAGO FAVORITO</label>
+        <div class="ancho"><input type="text" name="trago"></div>
+        
+        <label>PODER FAVORITO</label>  
+        <div class="ancho"><input type="text" name="poder"></div>
+        
+        <label>COMENTARIOS</label>
+        <div class="ancho"><textarea></textarea></div>
+		<div>
+            <input class="boton" type="reset" value="Resetear">
+            <input class="boton" type="submit" value="Registar">
+        </div>
+        </div>
+        </form>
+        <div class='clear'></div>
+        </b></main>
+</html>

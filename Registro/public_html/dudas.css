@@ -1,0 +1,55 @@
+html,body{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    background-color: #2196F3;
+    color: white;
+}
+header{
+    background-color: #006666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    margin:0;
+    text-align: center;
+}
+input,textArea{
+    width: 100%;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+.campo{
+    margin-bottom: 10px;
+}
+.campo input, .campo textarea{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #006666;
+    padding: 10px;
+}
+
+.botones input{
+    width: 50%;
+    color: white;
+    background-color: #006666;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px;
+    font-size: 20px;
+}
+.botones input:hover{
+    background-color: red;
+}
+.campo input:focus{
+    background-color: white;
+    color: black;
+}
+.campo textarea:focus{
+    background-color: white;
+    color: black;
+}

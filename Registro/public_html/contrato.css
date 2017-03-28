@@ -1,0 +1,36 @@
+.colunma{
+    float: left;
+    margin-left: 3%;
+    width: 25%;
+    margin-left: 70px;
+}
+main{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #1976D2;
+    margin-left: 70px;
+}
+body{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-family: lato;
+    font-size: 14px;
+}
+.boton{
+    clear: both;
+    text-decoration: none;
+    font-family: lato;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    margin-top: 20px;
+    padding: 5px 30px 10px 30px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.clear{
+    clear: both;
+}
+.boton:hover{
+    background-color: red;
+}
